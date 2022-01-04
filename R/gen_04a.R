@@ -167,6 +167,7 @@ rect_all %>%
     plot.background = element_rect(fill = "#fefae6", color = NA)
   )
 
-
+ggsave("genuary_04.png", device = "png",
+       width = 12, height = 12)
 
 
